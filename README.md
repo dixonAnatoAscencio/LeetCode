@@ -20,9 +20,10 @@ Why do we need Big O? - Big O notation helps us understand how the performance o
 Descripción: La complejidad constante significa que el tiempo de ejecución de la operación no depende del tamaño de la entrada. No importa si la entrada es de tamaño 10 o 10,000; el tiempo de ejecución es el mismo.
 Ejemplo: Acceder a un elemento en un array por su índice, como array[5], siempre toma el mismo tiempo sin importar el tamaño del array.
 
+```python
 def get_first_element(arr):
     return arr[0]  # O(1)
-
+```
 
 # O(log N) - Complejidad Logarítmica
 Descripción: La complejidad logarítmica se reduce con el tamaño de la entrada a medida que crece. Cada operación reduce significativamente el tamaño del problema, como en una búsqueda binaria, dividiendo la entrada en dos partes en cada paso.
